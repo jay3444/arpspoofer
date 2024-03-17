@@ -7,6 +7,8 @@ Restores ARP tables to their original state after the attack.
 Usage
 Install scapy using pip:
 pip install scapy
+
+
 Enable IP forwarding:
 sudo echo 1 > /proc/sys/net/ipv4/ipv4_forward
 
